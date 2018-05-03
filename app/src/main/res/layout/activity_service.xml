@@ -6,4 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".ServiceActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/btn_South"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_purple"
+            android:text="South District" />
+
+        <Button
+            android:id="@+id/btn_West"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_purple"
+            android:text="West District" />
+
+        <Button
+            android:id="@+id/btn_North"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_purple"
+            android:text="North zone" />
+
+        <Button
+            android:id="@+id/btn_Shalu"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_purple"
+            android:text="Sha-Lu Distirict" />
+
+        <Button
+            android:id="@+id/btn_Fengyuan"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_purple"
+            android:text=" Feng-Yuan District" />
+
+        <Button
+            android:id="@+id/btn_Dali"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_purple"
+            android:text="Da-Li District" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

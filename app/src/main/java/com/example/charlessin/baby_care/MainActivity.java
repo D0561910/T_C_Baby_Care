@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btn_shop = findViewById(R.id.btn_Shop);
         btn_center = findViewById(R.id.btn_Resrc);
         btn_service = findViewById(R.id.btn_Service);
-        btn_location = findViewById(R.id.btn_Location);
+        btn_location = findViewById(R.id.btn_SrvcArea);
 
         btn_information.setOnClickListener(rec_info);
         btn_shop.setOnClickListener(rec_shop);

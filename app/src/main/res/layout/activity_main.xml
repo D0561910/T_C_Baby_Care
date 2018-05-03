@@ -60,7 +60,7 @@
             android:text="Baby Care Service" />
 
         <Button
-            android:id="@+id/btn_Location"
+            android:id="@+id/btn_SrvcArea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="125dp"
