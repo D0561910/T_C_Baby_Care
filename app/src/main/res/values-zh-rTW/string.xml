@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">台中托婴必备</string>
+    <string name="btn_One">活动布告栏</string>
+    <string name="btn_Two">友善商店</string>
+    <string name="btn_Three">资源中心</string>
+    <string name="btn_Four">托婴服务</string>
+    <string name="btn_Five">托婴地区</string>
+</resources>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Baby_Care</string>
+    <string name="btn_One">Information</string>
+    <string name="btn_Two">Shop</string>
+    <string name="btn_Three">Resource</string>
+    <string name="btn_Four">Service</string>
+    <string name="btn_Five">ServiceLocation</string>
 </resources>
