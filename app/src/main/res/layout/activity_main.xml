@@ -30,7 +30,7 @@
             android:layout_marginLeft="125dp"
             android:layout_marginRight="125dp"
             android:layout_marginTop="25dp"
-            android:text="Notification" />
+            android:text="@string/btn_One" />
 
         <Button
             android:id="@+id/btn_Shop"
@@ -39,7 +39,7 @@
             android:layout_marginLeft="125dp"
             android:layout_marginRight="125dp"
             android:layout_marginTop="25dp"
-            android:text="Shop" />
+            android:text="@string/btn_Two" />
 
         <Button
             android:id="@+id/btn_Resrc"
@@ -48,7 +48,7 @@
             android:layout_marginLeft="125dp"
             android:layout_marginRight="125dp"
             android:layout_marginTop="25dp"
-            android:text="Resources" />
+            android:text="@string/btn_Three" />
 
         <Button
             android:id="@+id/btn_Service"
@@ -57,7 +57,7 @@
             android:layout_marginLeft="125dp"
             android:layout_marginRight="125dp"
             android:layout_marginTop="25dp"
-            android:text="Baby Care Service" />
+            android:text="@string/btn_Four" />
 
         <Button
             android:id="@+id/btn_SrvcArea"
@@ -66,7 +66,7 @@
             android:layout_marginLeft="125dp"
             android:layout_marginRight="125dp"
             android:layout_marginTop="25dp"
-            android:text="Service Area" />
+            android:text="@string/btn_Five" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
