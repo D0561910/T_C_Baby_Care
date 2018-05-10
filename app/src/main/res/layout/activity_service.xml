@@ -20,67 +20,61 @@
         <Button
             android:id="@+id/btn_South"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/btn_purple"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_colour_"
             android:text="South District" />
 
         <Button
             android:id="@+id/btn_West"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/btn_purple"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_colour_"
             android:text="West District" />
 
         <Button
             android:id="@+id/btn_North"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/btn_purple"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_colour_"
             android:text="North zone" />
 
         <Button
             android:id="@+id/btn_Shalu"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/btn_purple"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_colour_"
             android:text="Sha-Lu Distirict" />
 
         <Button
             android:id="@+id/btn_Fengyuan"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/btn_purple"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_colour_"
             android:text=" Feng-Yuan District" />
 
         <Button
             android:id="@+id/btn_Dali"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/btn_purple"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_colour_"
             android:text="Da-Li District" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
