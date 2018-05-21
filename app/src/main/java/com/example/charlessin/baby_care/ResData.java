@@ -5,7 +5,7 @@ public class ResData {
     String name;
 
     ResData(int img , String name){
-        this.name = name;
         this.img = img;
+        this.name = name;
     }
 }

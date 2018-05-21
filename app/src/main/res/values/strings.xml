@@ -4,5 +4,5 @@
     <string name="btn_Two">Shop</string>
     <string name="btn_Three">Resource</string>
     <string name="btn_Four">Service</string>
-    <string name="btn_Five">ServiceLocation</string>
+    <string name="btn_Five">Svcs Location</string>
 </resources>

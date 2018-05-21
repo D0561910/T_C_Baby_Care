@@ -27,8 +27,8 @@
             android:id="@+id/btn_Notify"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="125dp"
-            android:layout_marginRight="125dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
             android:layout_marginTop="25dp"
             android:text="@string/btn_One" />
 
@@ -36,8 +36,8 @@
             android:id="@+id/btn_Shop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="125dp"
-            android:layout_marginRight="125dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
             android:layout_marginTop="25dp"
             android:text="@string/btn_Two" />
 
@@ -45,8 +45,8 @@
             android:id="@+id/btn_Resrc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="125dp"
-            android:layout_marginRight="125dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
             android:layout_marginTop="25dp"
             android:text="@string/btn_Three" />
 
@@ -54,8 +54,8 @@
             android:id="@+id/btn_Service"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="125dp"
-            android:layout_marginRight="125dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
             android:layout_marginTop="25dp"
             android:text="@string/btn_Four" />
 
@@ -63,8 +63,8 @@
             android:id="@+id/btn_SrvcArea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="125dp"
-            android:layout_marginRight="125dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
             android:layout_marginTop="25dp"
             android:text="@string/btn_Five" />
 
