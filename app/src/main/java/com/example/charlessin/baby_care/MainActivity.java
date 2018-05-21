@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Main Program.
+ */
 public class MainActivity extends AppCompatActivity {
 
     Button btn_information;

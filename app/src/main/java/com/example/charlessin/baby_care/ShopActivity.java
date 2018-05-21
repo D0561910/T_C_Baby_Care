@@ -2,7 +2,9 @@ package com.example.charlessin.baby_care;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
+/**
+ * 友善商店。
+ */
 public class ShopActivity extends AppCompatActivity {
 
     @Override
