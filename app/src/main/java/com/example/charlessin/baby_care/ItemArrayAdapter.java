@@ -11,10 +11,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ResourceArrayAdapter extends ArrayAdapter<ResData>{
+public class ItemArrayAdapter extends ArrayAdapter<DataItem>{
     Context context;
 
-    public ResourceArrayAdapter (Context context, ArrayList<ResData> items){
+    public ItemArrayAdapter(Context context, ArrayList<DataItem> items){
         super(context,0,items);
         this.context = context;
     }
@@ -29,7 +29,7 @@ public class ResourceArrayAdapter extends ArrayAdapter<ResData>{
             itemlayout = (LinearLayout) convertView;
         }
 
-        ResData item = (ResData)getItem(position);
+        DataItem item = (DataItem)getItem(position);
 
         TextView tv_name = (TextView)itemlayout.findViewById(R.id.itemtv);
         tv_name.setText(item.name);
