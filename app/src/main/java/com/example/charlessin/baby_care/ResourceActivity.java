@@ -19,12 +19,12 @@ public class ResourceActivity extends AppCompatActivity {
         setContentView(R.layout.activity_resource);
 
         ArrayList<DataItem> resourcelist = new ArrayList<DataItem>();
-        resourcelist.add(new DataItem(R.drawable.baby_with_mom,"XXXX"));
-        resourcelist.add(new DataItem(R.drawable.baby_with_mom,"XXXX"));
-        resourcelist.add(new DataItem(R.drawable.baby_with_mom,"XXXX"));
-        resourcelist.add(new DataItem(R.drawable.baby_with_mom,"XXXX"));
-        resourcelist.add(new DataItem(R.drawable.baby_with_mom,"XXXX"));
-        resourcelist.add(new DataItem(R.drawable.baby_with_mom,"XXXX"));
+        resourcelist.add(new DataItem(R.drawable.bcc_nantun,"南屯親子館"));
+        resourcelist.add(new DataItem(R.drawable.bcc_shanxian,"山縣托嬰資源中心"));
+        resourcelist.add(new DataItem(R.drawable.bcc_haixian,"海縣托嬰資源中心"));
+        resourcelist.add(new DataItem(R.drawable.bcc_dajia,"大甲托嬰資源中心"));
+        resourcelist.add(new DataItem(R.drawable.bcc_town_area,"市區托嬰資源中心"));
+        resourcelist.add(new DataItem(R.drawable.bcc_datun,"大屯托嬰資源中心"));
 
         ItemArrayAdapter adapter =
                 new ItemArrayAdapter(this, resourcelist);
