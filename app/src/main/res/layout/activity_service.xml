@@ -24,8 +24,10 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn_colour_"
-            android:text="South District" />
+            android:text="South District"
+            android:backgroundTint="@color/cF0D3F7"
+            android:textColor="@color/cBCE7FD"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_West"
@@ -34,8 +36,10 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn_colour_"
-            android:text="West District" />
+            android:text="West District"
+            android:backgroundTint="@color/cF0D3F7"
+            android:textColor="@color/cBCE7FD"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_North"
@@ -44,8 +48,10 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn_colour_"
-            android:text="North zone" />
+            android:text="North zone"
+            android:backgroundTint="@color/cF0D3F7"
+            android:textColor="@color/cBCE7FD"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_Shalu"
@@ -54,8 +60,10 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn_colour_"
-            android:text="Sha-Lu Distirict" />
+            android:text="Sha-Lu Distirict"
+            android:backgroundTint="@color/cF0D3F7"
+            android:textColor="@color/cBCE7FD"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_Fengyuan"
@@ -64,8 +72,10 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn_colour_"
-            android:text=" Feng-Yuan District" />
+            android:text=" Feng-Yuan District"
+            android:backgroundTint="@color/cF0D3F7"
+            android:textColor="@color/cBCE7FD"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_Dali"
@@ -74,7 +84,9 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/btn_colour_"
-            android:text="Da-Li District" />
+            android:text="Da-Li District"
+            android:backgroundTint="@color/cF0D3F7"
+            android:textColor="@color/cBCE7FD"
+            android:textStyle="bold" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
