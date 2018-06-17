@@ -31,10 +31,21 @@ public class ItemArrayAdapter extends ArrayAdapter<DataItem>{
 
         DataItem item = (DataItem)getItem(position);
 
-        TextView tv_name = (TextView)itemlayout.findViewById(R.id.itemtv);
-        tv_name.setText(item.name);
-        ImageView iv = (ImageView)itemlayout.findViewById(R.id.itemiv);
-        iv.setImageResource(item.img);
+        TextView tv_name = (TextView) itemlayout.findViewById(R.id.tv_rBB_Name);
+        tv_name.setText(item.getName());
+
+        TextView tv_add = (TextView) itemlayout.findViewById(R.id.tv_rBB_Shelter);
+        tv_add.setText(item.getShelter());
+
+        TextView tv_tel = (TextView) itemlayout.findViewById(R.id.tv_rBB_Tel);
+        tv_tel.setText(item.getbTel());
+
+        TextView tv_px = (TextView) itemlayout.findViewById(R.id.tv_rBB_Px);
+        tv_px.setText(item.getbPX());
+
+        TextView tv_py = (TextView) itemlayout.findViewById(R.id.tv_rBB_Py);
+        tv_py.setText(item.getbPY());
+
         return itemlayout;
     }
 }
