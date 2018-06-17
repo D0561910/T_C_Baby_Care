@@ -10,7 +10,7 @@ import android.widget.Button;
 /**
  * 托婴服务。
  */
-public class AreaActivity extends AppCompatActivity {
+public class NearbyActivity extends AppCompatActivity {
 
     Button carpark;
     Button service;
@@ -18,7 +18,7 @@ public class AreaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_area);
+        setContentView(R.layout.activity_nearby);
 
         carpark = findViewById(R.id.car_park);
         service = findViewById(R.id.btn_serviceloc);
@@ -31,7 +31,7 @@ public class AreaActivity extends AppCompatActivity {
     private View.OnClickListener parking = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Uri uri =Uri.parse("geo:0,0?q=孕妇停车");
+            Uri uri =Uri.parse("geo:0,0?q=親子停車位");
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_VIEW);
             intent.setData(uri);

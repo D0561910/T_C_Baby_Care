@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/AEC5EB"
     tools:context=".ServiceActivity">
 
     <LinearLayout
@@ -25,8 +26,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="South District"
-            android:backgroundTint="@color/cF0D3F7"
-            android:textColor="@color/cBCE7FD"
+            android:background="@color/cFFCAD4"
+            android:textColor="@color/cAF3B6E"
             android:textStyle="bold" />
 
         <Button
@@ -37,8 +38,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="West District"
-            android:backgroundTint="@color/cF0D3F7"
-            android:textColor="@color/cBCE7FD"
+            android:background="@color/cFFCAD4"
+            android:textColor="@color/cAF3B6E"
             android:textStyle="bold" />
 
         <Button
@@ -49,8 +50,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="North zone"
-            android:backgroundTint="@color/cF0D3F7"
-            android:textColor="@color/cBCE7FD"
+            android:background="@color/cFFCAD4"
+            android:textColor="@color/cAF3B6E"
             android:textStyle="bold" />
 
         <Button
@@ -61,8 +62,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="Sha-Lu Distirict"
-            android:backgroundTint="@color/cF0D3F7"
-            android:textColor="@color/cBCE7FD"
+            android:background="@color/cFFCAD4"
+            android:textColor="@color/cAF3B6E"
             android:textStyle="bold" />
 
         <Button
@@ -73,8 +74,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text=" Feng-Yuan District"
-            android:backgroundTint="@color/cF0D3F7"
-            android:textColor="@color/cBCE7FD"
+            android:background="@color/cFFCAD4"
+            android:textColor="@color/cAF3B6E"
             android:textStyle="bold" />
 
         <Button
@@ -85,8 +86,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="Da-Li District"
-            android:backgroundTint="@color/cF0D3F7"
-            android:textColor="@color/cBCE7FD"
+            android:background="@color/cFFCAD4"
+            android:textColor="@color/cAF3B6E"
             android:textStyle="bold" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

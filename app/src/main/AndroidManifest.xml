@@ -20,7 +20,7 @@
         <activity android:name=".ShopActivity" />
         <activity android:name=".ServiceActivity" />
         <activity android:name=".ResourceActivity" />
-        <activity android:name=".AreaActivity"></activity>
+        <activity android:name=".NearbyActivity"></activity>
     </application>
 
 </manifest>
