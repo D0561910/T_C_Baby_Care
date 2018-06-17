@@ -24,7 +24,7 @@ import java.util.List;
  */
 public class ShopActivity extends AppCompatActivity {
 
-    private ItemArrayAdapter adapter = null;
+    private ShopArrayAdapter adapter = null;
 
     private static final int BABY_SHOP_LIST = 1;
 
@@ -63,10 +63,12 @@ public class ShopActivity extends AppCompatActivity {
 //        resourcelist.add(new DataItem(R.drawable.shop_infant, "婴之房"));
 //        resourcelist.add(new DataItem(R.drawable.shop_ollobaby, "ollobaby歐羅北鼻"));
 
-        adapter = new ItemArrayAdapter(this, new ArrayList<DataItem>());
+        adapter = new ShopArrayAdapter(this, new ArrayList<DataItem>());
 
         lvShop.setAdapter(adapter);
         lvShop.setOnItemClickListener(itemclick);
+
+        getShopFromFireBase();
     }
 
     class FireBaseThread extends Thread{
@@ -109,7 +111,7 @@ public class ShopActivity extends AppCompatActivity {
         }
     }
 
-    protected void getshopFromFireBase(){
+    protected void getShopFromFireBase(){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("");
         myRef.addValueEventListener(new ValueEventListener() {
@@ -120,7 +122,7 @@ public class ShopActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                Log.v("HotelDetails", databaseError.getMessage());
+                Log.v("ShopDetails", databaseError.getMessage());
             }
         });
     }

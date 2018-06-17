@@ -16,14 +16,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20px"
-            android:textColor="@color/F9B9F2"
+            android:textColor="@color/A364958"
             android:textSize="80px" />
 
         <TextView
             android:id="@+id/tv_sBB_Shelter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/F9B9F2"
+            android:textColor="@color/A364958"
             android:layout_margin="10px"
             android:textSize="40px"/>
 
@@ -31,7 +31,7 @@
             android:id="@+id/tv_sBB_Tel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/F9B9F2"
+            android:textColor="@color/A364958"
             android:layout_margin="10px"
             android:textSize="40px" />
 
@@ -39,7 +39,7 @@
             android:id="@+id/tv_sBB_Px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/F9B9F2"
+            android:textColor="@color/A364958"
             android:layout_margin="10px"
             android:textSize="40px" />
 
@@ -47,7 +47,7 @@
             android:id="@+id/tv_sBB_Py"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/F9B9F2"
+            android:textColor="@color/A364958"
             android:layout_margin="10px"
             android:textSize="40px" />
 
