@@ -136,7 +136,6 @@ public class ResourceActivity extends AppCompatActivity {
             intent.putExtra(KEY_PX, strX);
             intent.putExtra(KEY_PY, strY);
             startActivity(intent);
-
         }
     };
 }

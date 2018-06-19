@@ -28,9 +28,9 @@ public class ShopActivity extends AppCompatActivity {
 
     private static final int BABY_SHOP_LIST = 1;
 
-    public static String KEY_PX = "KEY_PX";
+    public static String SHOP_KEY_PX = "KEY_PX";
 
-    public static String KEY_PY = "KEY_PY";
+    public static String SHOP_KEY_PY = "KEY_PY";
 
     private Handler handler = new Handler(){
         public void handleMessage (Message msg){
@@ -55,13 +55,6 @@ public class ShopActivity extends AppCompatActivity {
         setContentView(R.layout.activity_shop);
 
         ListView lvShop = (ListView)findViewById(R.id.shop_lv);
-//        ArrayList<DataItem> resourcelist = new ArrayList<DataItem>();
-//        resourcelist.add(new DataItem(R.drawable.shop_gennies, "奇妮孕婦裝"));
-//        resourcelist.add(new DataItem(R.drawable.shop_tangtangmummy, "棠棠媽咪"));
-//        resourcelist.add(new DataItem(R.drawable.shop_gbaby, "金寶貝"));
-//        resourcelist.add(new DataItem(R.drawable.shop_kukuduck, "酷咕鴨嬰兒用品旗艦店"));
-//        resourcelist.add(new DataItem(R.drawable.shop_infant, "婴之房"));
-//        resourcelist.add(new DataItem(R.drawable.shop_ollobaby, "ollobaby歐羅北鼻"));
 
         adapter = new ShopArrayAdapter(this, new ArrayList<DataItem>());
 
@@ -131,13 +124,13 @@ public class ShopActivity extends AppCompatActivity {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             DataItem shop = (DataItem) parent.getItemAtPosition(position);
-            String strX = shop.getbPX();
-            String strY = shop.getbPY();
+            String sStrX = shop.getbPX();
+            String sStrY = shop.getbPY();
 
             Intent intent = new Intent();
             intent.setClass(ShopActivity.this,MapsActivity.class);
-            intent.putExtra(KEY_PX, strX);
-            intent.putExtra(KEY_PY, strY);
+            intent.putExtra(SHOP_KEY_PX, sStrX);
+            intent.putExtra(SHOP_KEY_PY, sStrY);
             startActivity(intent);
 
         }

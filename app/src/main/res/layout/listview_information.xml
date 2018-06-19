@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20px"
                 android:textColor="@color/A364958"
-                android:textSize="80px" />
+                android:textSize="60px" />
 
             <TextView
                 android:id="@+id/tv_iBB_Class"
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20px"
                 android:textColor="@color/A364958"
-                android:textSize="50px" />
+                android:textSize="30px" />
 
         </LinearLayout>
     </LinearLayout>

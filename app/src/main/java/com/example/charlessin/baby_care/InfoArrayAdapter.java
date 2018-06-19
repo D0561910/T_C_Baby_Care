@@ -25,7 +25,7 @@ public class InfoArrayAdapter extends ArrayAdapter<InfoItem> {
         LayoutInflater inflater = LayoutInflater.from(context);
         LinearLayout itemlayout = null;
         if(convertView == null) {
-            itemlayout = (LinearLayout)inflater.inflate(R.layout.listview_resource, null);
+            itemlayout = (LinearLayout)inflater.inflate(R.layout.listview_information, null);
         } else {
             itemlayout = (LinearLayout) convertView;
         }

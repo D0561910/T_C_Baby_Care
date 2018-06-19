@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ListView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -23,22 +24,23 @@ import java.util.List;
  */
 public class InformationActivity extends AppCompatActivity {
 
-    private ItemArrayAdapter adapter = null;
+    private InfoArrayAdapter adapter = null;
 
     private static final int BABY_INFO_LIST = 1;
 
-    public static String KEY_ID1 = "KEY_ID1";
-    public static String KEY_ID2 = "KEY_ID2";
-    public static String KEY_ID3 = "KEY_ID3";
-    public static String KEY_ID4 = "KEY_ID4";
-    public static String KEY_ID5 = "KEY_ID5";
-    public static String KEY_ID6 = "KEY_ID6";
+    public static String KEY_TTL = "KEY_TTL";
+    public static String KEY_IDA = "KEY_ID1";
+    public static String KEY_IDB = "KEY_ID2";
+    public static String KEY_IDC = "KEY_ID3";
+    public static String KEY_IDD = "KEY_ID4";
+    public static String KEY_IDE = "KEY_ID5";
+    public static String KEY_IDF = "KEY_ID6";
 
     private Handler handler = new Handler(){
         public void handleMessage (Message msg){
             switch (msg.what){
                 case BABY_INFO_LIST : {
-                    List<DataItem> baby = (List<DataItem>) msg.obj;
+                    List<InfoItem> baby = (List<InfoItem>) msg.obj;
                     refreshHotelList(baby);
                     break;
                 }
@@ -46,7 +48,7 @@ public class InformationActivity extends AppCompatActivity {
         }
     };
 
-    private void refreshHotelList (List<DataItem> babys){
+    private void refreshHotelList (List<InfoItem> babys){
         adapter.clear();
         adapter.addAll(babys);
     }
@@ -55,6 +57,14 @@ public class InformationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_information);
+
+        ListView lvResrc = (ListView)findViewById(R.id.info_lv);
+
+        adapter = new InfoArrayAdapter(this, new ArrayList<InfoItem>());
+        lvResrc.setAdapter(adapter);
+        lvResrc.setOnItemClickListener(itemclick);
+
+        getFromFireBase();
     }
 
     class FireBaseThread extends Thread{
@@ -127,21 +137,23 @@ public class InformationActivity extends AppCompatActivity {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             InfoItem info = (InfoItem) parent.getItemAtPosition(position);
+            String ttl = info.getiTitle();
             String ic1 = info.getiInfoContext1();
             String ic2 = info.getiInfoContext2();
-            String ic3 = info.getiInfoContext2();
-            String ic4 = info.getiInfoContext2();
-            String ic5 = info.getiInfoContext2();
-            String ic6 = info.getiInfoContext2();
+            String ic3 = info.getiInfoContext3();
+            String ic4 = info.getiInfoContext4();
+            String ic5 = info.getiInfoContext5();
+            String ic6 = info.getiInfoContext6();
 
             Intent intent = new Intent();
-            //intent.setClass(MainActivity.this);
-            intent.putExtra(KEY_ID1, ic1);
-            intent.putExtra(KEY_ID2, ic2);
-            intent.putExtra(KEY_ID3, ic3);
-            intent.putExtra(KEY_ID4, ic4);
-            intent.putExtra(KEY_ID5, ic5);
-            intent.putExtra(KEY_ID6, ic6);
+            intent.setClass(InformationActivity.this,InformationListView.class);
+            intent.putExtra(KEY_TTL, ttl);
+            intent.putExtra(KEY_IDA, ic1);
+            intent.putExtra(KEY_IDB, ic2);
+            intent.putExtra(KEY_IDC, ic3);
+            intent.putExtra(KEY_IDD, ic4);
+            intent.putExtra(KEY_IDE, ic5);
+            intent.putExtra(KEY_IDF, ic6);
             startActivity(intent);
 
         }

@@ -3,6 +3,7 @@ package com.example.charlessin.baby_care;
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -38,19 +39,27 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        Double pX;
+        Double pY;
         Intent intent = getIntent();
-        String strX = intent.getStringExtra(ResourceActivity.KEY_PX);
-        String strY = intent.getStringExtra(ResourceActivity.KEY_PY);
+        String strX = null;
+        String strY = null;
+        strX = intent.getStringExtra(ResourceActivity.KEY_PX);
+        strY = intent.getStringExtra(ResourceActivity.KEY_PY);
+        pX = Double.valueOf(strX);
+        pY = Double.valueOf(strY);
         if(strX==null && strY==null){
-            strX = intent.getStringExtra(ShopActivity.KEY_PX);
-            strY = intent.getStringExtra(ShopActivity.KEY_PY);
+            String sStrX = intent.getStringExtra(ShopActivity.SHOP_KEY_PX);
+            String sStrY = intent.getStringExtra(ShopActivity.SHOP_KEY_PY);
+            pX = Double.valueOf(sStrX);
+            pY = Double.valueOf(sStrY);
         }
-        Double pX = Double.valueOf(strX);
-        Double pY = Double.valueOf(strY);
+        Log.d("String ","String : " + pX);
+        Log.d("String ","String : " + pY);
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(pY, pX);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng FCU = new LatLng(pX, pY);
+        mMap.addMarker(new MarkerOptions().position(FCU).title("Marker in Sydney"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(FCU));
     }
 }
