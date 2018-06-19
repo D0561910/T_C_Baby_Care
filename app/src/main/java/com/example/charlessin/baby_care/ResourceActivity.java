@@ -56,14 +56,6 @@ public class ResourceActivity extends AppCompatActivity {
 
         ListView lvResrc = (ListView)findViewById(R.id.res_lv);
 
-//        ArrayList<DataItem> resourcelist = new ArrayList<DataItem>();
-//        resourcelist.add(new DataItem(R.drawable.bcc_nantun,"南屯親子館"));
-//        resourcelist.add(new DataItem(R.drawable.bcc_shanxian,"山縣托嬰資源中心"));
-//        resourcelist.add(new DataItem(R.drawable.bcc_haixian,"海縣托嬰資源中心"));
-//        resourcelist.add(new DataItem(R.drawable.bcc_dajia,"大甲托嬰資源中心"));
-//        resourcelist.add(new DataItem(R.drawable.bcc_town_area,"市區托嬰資源中心"));
-//        resourcelist.add(new DataItem(R.drawable.bcc_datun,"大屯托嬰資源中心"));
-
         adapter = new ItemArrayAdapter(this, new ArrayList<DataItem>());
         lvResrc.setAdapter(adapter);
         lvResrc.setOnItemClickListener(itemclick);
@@ -127,7 +119,7 @@ public class ResourceActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                Log.v("HotelDetails", databaseError.getMessage());
+                Log.v("ResourceDetails", databaseError.getMessage());
             }
         });
     }
@@ -140,7 +132,7 @@ public class ResourceActivity extends AppCompatActivity {
             String strY = rSrc.getbPY();
 
             Intent intent = new Intent();
-            //intent.setClass(MainActivity.this);
+            intent.setClass(ResourceActivity.this,MapsActivity.class);
             intent.putExtra(KEY_PX, strX);
             intent.putExtra(KEY_PY, strY);
             startActivity(intent);

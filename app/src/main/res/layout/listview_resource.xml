@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/A364958"
-            android:layout_margin="10px"
+            android:layout_margin="20px"
             android:textSize="40px" />
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/A364958"
-            android:layout_margin="10px"
+            android:layout_margin="20px"
             android:textSize="40px" />
 
         <TextView
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/A364958"
-            android:layout_margin="10px"
+            android:layout_margin="20px"
             android:textSize="40px" />
 
         <TextView
@@ -48,9 +48,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/A364958"
-            android:layout_margin="10px"
+            android:layout_margin="20px"
             android:textSize="40px" />
 
     </LinearLayout>
-
 </LinearLayout>

@@ -28,9 +28,9 @@ public class ShopActivity extends AppCompatActivity {
 
     private static final int BABY_SHOP_LIST = 1;
 
-    public static String SHOP_KEY_PX = "KEY_PX";
+    public static String KEY_PX = "KEY_PX";
 
-    public static String SHOP_KEY_PY = "KEY_PY";
+    public static String KEY_PY = "KEY_PY";
 
     private Handler handler = new Handler(){
         public void handleMessage (Message msg){
@@ -135,9 +135,9 @@ public class ShopActivity extends AppCompatActivity {
             String strY = shop.getbPY();
 
             Intent intent = new Intent();
-            //intent.setClass(MainActivity.this);
-            intent.putExtra(SHOP_KEY_PX, strX);
-            intent.putExtra(SHOP_KEY_PY, strY);
+            intent.setClass(ShopActivity.this,MapsActivity.class);
+            intent.putExtra(KEY_PX, strX);
+            intent.putExtra(KEY_PY, strY);
             startActivity(intent);
 
         }

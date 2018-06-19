@@ -5,4 +5,5 @@
     <string name="btn_Three">Resource</string>
     <string name="btn_Four">Service</string>
     <string name="btn_Five">Nearby</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
