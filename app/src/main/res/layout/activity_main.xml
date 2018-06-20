@@ -7,20 +7,21 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@color/AEC5EB"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView"
+        <ViewFlipper
+            android:id="@+id/v_flipper"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/bab3" />
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"></ViewFlipper>
 
         <Button
             android:id="@+id/btn_Notify"
@@ -29,9 +30,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="200dp"
             android:layout_marginTop="25dp"
-            android:background="@color/cFFCAD4"
+            android:background="@drawable/my_button_background"
             android:text="@string/btn_One"
-            android:textColor="@color/cAF3B6E" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/btn_Shop"
@@ -40,9 +41,9 @@
             android:layout_marginLeft="200dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="25dp"
-            android:background="@color/cFFCAD4"
+            android:background="@drawable/my_button_background"
             android:text="@string/btn_Two"
-            android:textColor="@color/cAF3B6E" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/btn_Resrc"
@@ -51,9 +52,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="200dp"
             android:layout_marginTop="25dp"
-            android:background="@color/cFFCAD4"
+            android:background="@drawable/my_button_background"
             android:text="@string/btn_Three"
-            android:textColor="@color/cAF3B6E" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/btn_Service"
@@ -62,9 +63,9 @@
             android:layout_marginLeft="200dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="25dp"
-            android:background="@color/cFFCAD4"
+            android:background="@drawable/my_button_background"
             android:text="@string/btn_Four"
-            android:textColor="@color/cAF3B6E" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/btn_SrvcArea"
@@ -73,9 +74,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="200dp"
             android:layout_marginTop="25dp"
-            android:background="@color/cFFCAD4"
+            android:background="@drawable/my_button_background"
             android:text="@string/btn_Five"
-            android:textColor="@color/cAF3B6E" />
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

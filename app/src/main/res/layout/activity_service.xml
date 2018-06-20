@@ -36,8 +36,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="South District"
-            android:background="@color/cFFCAD4"
-            android:textColor="@color/cAF3B6E"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/my_button_background"
             android:textStyle="bold" />
 
         <Button
@@ -48,8 +48,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="West District"
-            android:background="@color/cFFCAD4"
-            android:textColor="@color/cAF3B6E"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/my_button_background"
             android:textStyle="bold" />
 
         <Button
@@ -60,8 +60,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="North zone"
-            android:background="@color/cFFCAD4"
-            android:textColor="@color/cAF3B6E"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/my_button_background"
             android:textStyle="bold" />
 
         <Button
@@ -72,8 +72,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="Sha-Lu Distirict"
-            android:background="@color/cFFCAD4"
-            android:textColor="@color/cAF3B6E"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/my_button_background"
             android:textStyle="bold" />
 
         <Button
@@ -84,8 +84,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text=" Feng-Yuan District"
-            android:background="@color/cFFCAD4"
-            android:textColor="@color/cAF3B6E"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/my_button_background"
             android:textStyle="bold" />
 
         <Button
@@ -96,8 +96,8 @@
             android:layout_marginRight="100dp"
             android:layout_marginTop="20dp"
             android:text="Da-Li District"
-            android:background="@color/cFFCAD4"
-            android:textColor="@color/cAF3B6E"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/my_button_background"
             android:textStyle="bold" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

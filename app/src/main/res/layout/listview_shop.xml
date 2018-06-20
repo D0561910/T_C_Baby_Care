@@ -23,16 +23,20 @@
             android:id="@+id/tv_sBB_Shelter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:textColor="@color/A364958"
-            android:layout_margin="20px"
-            android:textSize="40px"/>
+            android:textSize="40px" />
 
         <TextView
             android:id="@+id/tv_sBB_Tel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/A364958"
-            android:layout_margin="20px"
+            android:layout_margin="10px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:textSize="40px" />
 
         <TextView
@@ -40,7 +44,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/A364958"
-            android:layout_margin="20px"
+            android:layout_margin="10px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:textSize="40px" />
 
         <TextView
@@ -48,7 +54,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/A364958"
-            android:layout_margin="20px"
+            android:layout_margin="10px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:textSize="40px" />
 
     </LinearLayout>
