@@ -5,4 +5,9 @@
     <string name="btn_Three">资源中心</string>
     <string name="btn_Four">托婴服务</string>
     <string name="btn_Five">托婴地区</string>
+    <string name="bb_Info">婴儿资讯</string>
+    <string name="bb_Shop">商店</string>
+    <string name="bb_Service">服务</string>
+    <string name="bb_Rsrc">资源中心</string>
+    <string name="bb_Nearby">附近</string>
 </resources>

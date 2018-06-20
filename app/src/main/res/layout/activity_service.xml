@@ -18,6 +18,16 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
+        <TextView
+            android:id="@+id/tv_bb_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/bb_Service"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="30sp"/>
+
         <Button
             android:id="@+id/btn_South"
             android:layout_width="match_parent"

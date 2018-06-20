@@ -5,5 +5,10 @@
     <string name="btn_Three">Resource</string>
     <string name="btn_Four">Service</string>
     <string name="btn_Five">Nearby</string>
+    <string name="bb_Info">Baby Information</string>
+    <string name="bb_Shop">Baby Shop</string>
+    <string name="bb_Service">Service Info</string>
+    <string name="bb_Rsrc">Resource</string>
+    <string name="bb_Nearby">Nearby</string>
     <string name="title_activity_maps">Map</string>
 </resources>

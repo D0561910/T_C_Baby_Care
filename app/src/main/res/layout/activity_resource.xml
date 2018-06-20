@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="资源中心"
+            android:text="@string/bb_Rsrc"
             android:textColor="@android:color/holo_red_light"
             android:textSize="30sp" />
 
