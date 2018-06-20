@@ -19,8 +19,8 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
-            app:srcCompat="@drawable/baby_with_mom" />
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bab3" />
 
         <Button
             android:id="@+id/btn_Notify"
