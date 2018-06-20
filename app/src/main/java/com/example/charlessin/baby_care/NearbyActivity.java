@@ -14,6 +14,7 @@ public class NearbyActivity extends AppCompatActivity {
 
     Button carpark;
     Button service;
+    Button play;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,9 +23,11 @@ public class NearbyActivity extends AppCompatActivity {
 
         carpark = findViewById(R.id.car_park);
         service = findViewById(R.id.btn_serviceloc);
+        play = findViewById(R.id.btn_playground);
 
         carpark.setOnClickListener(parking);
         service.setOnClickListener(serviceloc);
+        play.setOnClickListener(playground);
     }
 
 
@@ -43,6 +46,17 @@ public class NearbyActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Uri uri =Uri.parse("geo:0,0?q=托婴服务");
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_VIEW);
+            intent.setData(uri);
+            startActivity(intent);
+        }
+    };
+
+    private View.OnClickListener playground = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Uri uri =Uri.parse("geo:0,0?q=游乐场");
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_VIEW);
             intent.setData(uri);

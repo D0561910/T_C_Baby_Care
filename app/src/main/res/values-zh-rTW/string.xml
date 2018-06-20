@@ -10,4 +10,7 @@
     <string name="bb_Service">服务</string>
     <string name="bb_Rsrc">资源中心</string>
     <string name="bb_Nearby">附近</string>
+    <string name="btn_Parking">停车场</string>
+    <string name="btn_Baby">托婴服务</string>
+    <string name="btn_Playground">游乐场</string>
 </resources>

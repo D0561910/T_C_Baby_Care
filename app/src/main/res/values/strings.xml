@@ -10,5 +10,8 @@
     <string name="bb_Service">Service Info</string>
     <string name="bb_Rsrc">Resource</string>
     <string name="bb_Nearby">Nearby</string>
+    <string name="btn_Parking">Parking</string>
+    <string name="btn_Baby">Baby Care</string>
+    <string name="btn_Playground">Playground</string>
     <string name="title_activity_maps">Map</string>
 </resources>
