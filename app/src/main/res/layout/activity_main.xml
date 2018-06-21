@@ -23,60 +23,71 @@
             android:layout_height="180dp"
             android:layout_centerHorizontal="true"></ViewFlipper>
 
-        <Button
-            android:id="@+id/btn_Notify"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="200dp"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/my_button_background"
-            android:text="@string/btn_One"
-            android:textColor="#FFFFFF" />
+            android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/btn_Shop"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="200dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/my_button_background"
-            android:text="@string/btn_Two"
-            android:textColor="#FFFFFF" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/btn_Resrc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="200dp"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/my_button_background"
-            android:text="@string/btn_Three"
-            android:textColor="#FFFFFF" />
+                <Button
+                    android:id="@+id/btn_Notify"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/my_button_background"
+                    android:text="@string/btn_One"
+                    android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/btn_Service"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="200dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/my_button_background"
-            android:text="@string/btn_Four"
-            android:textColor="#FFFFFF" />
+                <Button
+                    android:id="@+id/btn_Resrc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/my_button_background"
+                    android:text="@string/btn_Three"
+                    android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/btn_SrvcArea"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="200dp"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/my_button_background"
-            android:text="@string/btn_Five"
-            android:textColor="#FFFFFF" />
+                <Button
+                    android:id="@+id/btn_Service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/my_button_background"
+                    android:text="@string/btn_Four"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/btn_Shop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/my_button_background"
+                    android:text="@string/btn_Two"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/btn_SrvcArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="200dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/my_button_background"
+                    android:text="@string/btn_Five"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </ScrollView>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
